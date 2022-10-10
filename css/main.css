@@ -9,9 +9,20 @@
   justify-content: space-between;
   background-color: #e1cec0;
 }
-#logo {
+.logo {
+  display: flex;
+  align-items: center;
+}
+#logo-one {
   width: 110px;
-  height: 40px;
+  height: 55px;
+}
+.logo-two {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  /* margin-right: 666px; */
+  color: #767556;
+  font-weight: 700;
 }
 .list-group {
   display: flex;
